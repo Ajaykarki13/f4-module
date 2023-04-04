@@ -1,0 +1,26 @@
+.card_div
+{
+   padding:9px;
+    width:300px;
+    background-color: rgba(0, 0, 0, 0.904);
+    color:white;
+    height:max-content;
+    border-radius: 10px;
+    margin:30px;
+}
+
+ .imgsrc
+ {
+    width:100%;
+    height:16vw;
+    object-fit:fill;
+ }
+ .headline
+ {
+    margin:20px;
+ }
+ .cardtitle,.cardid,.carddescription
+ {
+    margin:10px;
+ }
+ 
