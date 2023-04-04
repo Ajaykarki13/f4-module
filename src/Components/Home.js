@@ -10,7 +10,7 @@ import './style.css';
 function Home({ postsData, FetchUsers }) {
   useEffect(() => {
     FetchUsers();
-  }, [])
+  }, [FetchUsers])
 
   const navigate = useNavigate();
   const navigation = (post) => {
